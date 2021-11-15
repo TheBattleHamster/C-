@@ -1,0 +1,7 @@
+12:51:49 **** Rebuild of configuration Debug for project ПлавающийГоризонт ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cc" 
+g++ -o ПлавающийГоризонт.exe main.o 
+
+12:51:50 Build Finished. 0 errors, 0 warnings. (took 817ms)
+

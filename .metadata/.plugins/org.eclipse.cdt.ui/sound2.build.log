@@ -1,0 +1,11 @@
+12:51:42 **** Rebuild of configuration Debug for project sound2 ****
+Info: Internal Builder is used for build
+g++ "-IX:\\Вуз\\С++ 5-ый\\CPPlib\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o WaveGenerator.o "..\\WaveGenerator.cc" 
+g++ "-IX:\\Вуз\\С++ 5-ый\\CPPlib\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o EnvelopeGenerator.o "..\\EnvelopeGenerator.cc" 
+g++ "-IX:\\Вуз\\С++ 5-ый\\CPPlib\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o FMWaveGenerator.o "..\\FMWaveGenerator.cc" 
+g++ "-IX:\\Вуз\\С++ 5-ый\\CPPlib\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cc" 
+g++ "-IX:\\Вуз\\С++ 5-ый\\CPPlib\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o AudioDriver.o "..\\AudioDriver.cc" 
+g++ "-LX:\\Вуз\\С++ 5-ый\\CPPlib\\lib" -o sound2.exe AudioDriver.o EnvelopeGenerator.o FMWaveGenerator.o WaveGenerator.o main.o -lmingw32 -lwsock32 -lSDL2main -lSDL2 
+
+12:51:47 Build Finished. 0 errors, 0 warnings. (took 4s.742ms)
+

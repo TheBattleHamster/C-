@@ -1,0 +1,13 @@
+/*
+ * main.cc
+ *
+ *  Created on: 14 но€б. 2021 г.
+ *      Author: denis
+ */
+
+class main {
+public:
+	main();
+	virtual ~main();
+};
+

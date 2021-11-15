@@ -1,0 +1,13 @@
+LaunchTargetManager/configs/2D\u0414\u043E\u043C.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/3D\u0414\u043E\u043C.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe (1),org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe,org.eclipse.launchbar.core.descriptorType.default\:2\u0414\u0414\u043E\u043C.exe,org.eclipse.launchbar.core.descriptorType.default\:2\u0414\u043E\u043C.exe,org.eclipse.launchbar.core.descriptorType.default\:3D\u0414\u043E\u043C.exe,org.eclipse.launchbar.core.descriptorType.default\:3\u0414\u043E\u043C.exe,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe,org.eclipse.launchbar.core.descriptorType.default\:\u041A\u0430\u043C\u0435\u0448\u043A\u0438.exe,org.eclipse.launchbar.core.descriptorType.default\:\u041A\u0430\u043C\u043D\u0438.exe,org.eclipse.launchbar.core.descriptorType.default\:\u041A\u043E\u0444\u0435.exe,org.eclipse.launchbar.core.descriptorType.default\:\u041A\u043E\u0444\u0435\u041C\u0430\u0448\u0438\u043D\u0430.exe,org.eclipse.launchbar.core.descriptorType.default\:\u041F\u043B\u0430\u0432\u0430\u044E\u0449\u0438\u0439\u0413\u043E\u0440\u0438\u0437\u043E\u043D\u0442.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:2D\u0414\u043E\u043C.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

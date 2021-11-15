@@ -1,0 +1,42 @@
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+
+int main() {
+	int v=-2;
+	while (v!=0) {
+		std::cout << "1.Чай" << std::endl;
+		std::cout << "2.Кофе" << std::endl;
+		std::cout << "3.Молоко" << std::endl;
+		std::cout << "0.Выход" << std::endl;
+		std::string s;
+		std::getline(std::cin, s);
+		std::stringstream ss(s);
+		ss >> v;
+		if (std::cin.eof()) {
+			std::cout << "Ошибка!" << std::endl;
+			return 1;
+		}
+		if (ss.fail()) {
+			v = -1;
+			std::cout << "Come again?" << std::endl;
+		}
+		if ((v < 1 || v > 3) && v != 0)
+			std::cout << "Incorrect choice, Your Highness!" << std::endl;
+		switch (v) {
+		case 1:
+			std::cout << "Tea will be ready in 2 minutes, Your Highness!" << std::endl;
+			break;
+		case 2:
+			std::cout << "Coffee will be ready in 3 minutes, Your Highness!" << std::endl;
+			break;
+		case 3:
+			std::cout << "Milk is ready, Your Highness!" << std::endl;
+			break;
+		}
+
+	}
+
+	return 0;
+}
+

@@ -1,0 +1,18 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 14 но€б. 2021 г.
+ *      Author: denis
+ */
+
+#include "main.cc"
+
+main::main() {
+	// TODO Auto-generated constructor stub
+
+}
+
+main::~main() {
+	// TODO Auto-generated destructor stub
+}
+
